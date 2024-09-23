@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Developing a backend for Youtube type application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman src/index.js"
   },
   "keywords": [
     "JavaScript",
     "Express"
   ],
   "author": "Sachin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
